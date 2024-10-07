@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+  --primary: #23A6F0; 
+  --dark-blue: #252B42;
+}
+
+
+.primary-bg {
+  background: var(--primary);
+  background-color: var(--primary);
+}
+
+.hero{
+  background-image: url(./assests/img/bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+.text-primary{
+  color: var(--primary);
+}
+
+.text-dark-blue{
+  color: var(--dark-blue);
+}
+
+.dark-blue-bg{
+  background-color: var(--dark-blue);
+}
+
+
+.gradient-bg{
+  background: linear-gradient(to right,#004788, #D71489);
+}
